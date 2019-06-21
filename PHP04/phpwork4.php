@@ -13,7 +13,7 @@
     function multiply($arr){
         $result = 1;
         foreach($arr as $number){
-        $result *=$number;
+        $result *= $number;
         }
         return $result;
     }
