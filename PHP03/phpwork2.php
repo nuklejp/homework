@@ -1,7 +1,7 @@
 <?php
     //課題１
     $name = "Daisuke";
-    if($name = "Daisuke"){
+    if($name == "Daisuke"){
         echo "私は{$name}です";
     }else{
         echo "{$name}ではありません";
